@@ -1,7 +1,7 @@
 {
-  "version": "2.1",
-  "versionCode": 17,
-  "notes": "- New: full-screen audiobook player with the live narration wave\n- Fullscreen edge-to-edge reading (no bars covering the page)\n- Smoother chapter skipping + 6 fixes",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.1.0/MangaRain-v2.1-arm64.apk",
+  "version": "2.2",
+  "versionCode": 18,
+  "notes": "- Redesigned home: your current book fills with water as you read it\n- Restyled genre chips\n- The new look starts here — more screens coming",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.2.0/MangaRain-v2.2-arm64.apk",
   "sizeMb": 71
 }
