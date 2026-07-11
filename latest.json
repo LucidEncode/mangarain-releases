@@ -1,0 +1,7 @@
+{
+  "version": "2.0",
+  "versionCode": 16,
+  "notes": "- Wireless in-app updates\n- Immersive full-screen reading\n- Fix: chapter 1 no longer hidden behind the home bar",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.0.0/MangaRain-v2.0-arm64.apk",
+  "sizeMb": 71
+}
