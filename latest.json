@@ -1,7 +1,7 @@
 {
-  "version": "2.5",
-  "versionCode": 21,
-  "notes": "- Redesigned Library: calm accent-striped cards, most-recent first\n- A live wave shows on whatever you're listening to\n- Manga = blue stripe, novels = cyan",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.5.0/MangaRain-v2.5-arm64.apk",
+  "version": "2.6",
+  "versionCode": 22,
+  "notes": "- Novels open audiobook-first: a big Listen/Continue that starts narration\n- Plus a Read option for reading visually\n- Adding to library now confirms; long synopses tuck away",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.6.0/MangaRain-v2.6-arm64.apk",
   "sizeMb": 71
 }
