@@ -1,7 +1,7 @@
 {
   "version": "2.9",
-  "versionCode": 25,
-  "notes": "- No more raw error text — calm, branded 'try again' states everywhere\n- Retry buttons that actually recover\n- Tidier empty states across the app",
+  "versionCode": 2025,
+  "notes": "- Fixes the wireless updater itself (it never detected updates before — sorry!)\n- The whole redesign: living water hero, edge-water manga rail, Monolith library, audiobook-first novels, now-playing bar, and branded error states",
   "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.9.0/MangaRain-v2.9-arm64.apk",
   "sizeMb": 71
 }
