@@ -1,7 +1,7 @@
 {
-  "version": "2.8",
-  "versionCode": 24,
-  "notes": "- The now-playing bar is a real player: cover, title, chapter, play/pause\n- It stays while paused so you can pick right back up\n- More of the redesign, screen by screen",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.8.0/MangaRain-v2.8-arm64.apk",
+  "version": "2.9",
+  "versionCode": 25,
+  "notes": "- No more raw error text — calm, branded 'try again' states everywhere\n- Retry buttons that actually recover\n- Tidier empty states across the app",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.9.0/MangaRain-v2.9-arm64.apk",
   "sizeMb": 71
 }
