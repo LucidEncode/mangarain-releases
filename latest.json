@@ -1,7 +1,7 @@
 {
-  "version": "2.2",
-  "versionCode": 18,
-  "notes": "- Redesigned home: your current book fills with water as you read it\n- Restyled genre chips\n- The new look starts here — more screens coming",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.2.0/MangaRain-v2.2-arm64.apk",
+  "version": "2.3",
+  "versionCode": 19,
+  "notes": "- Manga pages: a water rail on the edge fills to your progress\n- The home hero's water now rises into place\n- More of the new look, landing screen by screen",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.3.0/MangaRain-v2.3-arm64.apk",
   "sizeMb": 71
 }
