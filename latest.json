@@ -1,7 +1,7 @@
 {
-  "version": "2.10",
-  "versionCode": 2026,
-  "notes": "- Real reading progress everywhere — the water fill and % now track your actual chapter (current ÷ newest), not a flat 15%\n- Redesigned floating dock: frosted-glass pill with an animated active tab\n- Home-screen widget now shows Continue Reading (title, cover, real %), not just narration\n- Resume no longer forgets your page when you reopen the same chapter",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.10.0/MangaRain-v2.10-arm64.apk",
+  "version": "2.11",
+  "versionCode": 2027,
+  "notes": "- Real reading progress everywhere — the water fill and % now track your actual chapter\n- Redesigned floating dock: frosted-glass pill with an animated active tab\n- Home-screen widget now shows Continue Reading (title, cover, real %), not just narration\n- Ambient home: time-of-day greeting + audiobook-first hero\n- Jump-to-chapter search on long chapter lists\n- Resume keeps your page when you reopen the same chapter",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.11.0/MangaRain-v2.11-arm64.apk",
   "sizeMb": 71
 }
