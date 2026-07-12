@@ -1,7 +1,7 @@
 {
-  "version": "2.7",
-  "versionCode": 23,
-  "notes": "- Settings shows your installed build + a real update-check result\n- Everything from 2.4-2.6: living hero, water rail, Monolith library, audiobook-first novels",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.7.0/MangaRain-v2.7-arm64.apk",
+  "version": "2.8",
+  "versionCode": 24,
+  "notes": "- The now-playing bar is a real player: cover, title, chapter, play/pause\n- It stays while paused so you can pick right back up\n- More of the redesign, screen by screen",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.8.0/MangaRain-v2.8-arm64.apk",
   "sizeMb": 71
 }
