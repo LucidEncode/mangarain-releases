@@ -1,7 +1,7 @@
 {
-  "version": "2.6",
-  "versionCode": 22,
-  "notes": "- Novels open audiobook-first: a big Listen/Continue that starts narration\n- Plus a Read option for reading visually\n- Adding to library now confirms; long synopses tuck away",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.6.0/MangaRain-v2.6-arm64.apk",
+  "version": "2.7",
+  "versionCode": 23,
+  "notes": "- Settings shows your installed build + a real update-check result\n- Everything from 2.4-2.6: living hero, water rail, Monolith library, audiobook-first novels",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.7.0/MangaRain-v2.7-arm64.apk",
   "sizeMb": 71
 }
