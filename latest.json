@@ -1,7 +1,7 @@
 {
-  "version": "2.4",
-  "versionCode": 20,
-  "notes": "- Wireless updates now work (this was broken — install this one manually, the rest come over wifi)\n- Redesigned water hero on home\n- Manga pages show a water rail that fills to your progress",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.4.0/MangaRain-v2.4-arm64.apk",
+  "version": "2.5",
+  "versionCode": 21,
+  "notes": "- Redesigned Library: calm accent-striped cards, most-recent first\n- A live wave shows on whatever you're listening to\n- Manga = blue stripe, novels = cyan",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.5.0/MangaRain-v2.5-arm64.apk",
   "sizeMb": 71
 }
