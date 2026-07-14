@@ -1,7 +1,7 @@
 {
-  "version": "2.16",
-  "versionCode": 2032,
-  "notes": "- Title pages: frosted-glass info card over the cover + a living liquid Continue/Listen button\n- Chapter lists are glass rows with jump-to-chapter search\n- All-new audiobook player: layered voice waveform, liquid scrubber with a glowing droplet head, SPEED/SLEEP pills around a radiant play button\n- Pause from the player now truly pauses (keeps your place + mini-player)\n- Every screen verified live on a device before shipping",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.16.0/MangaRain-v2.16-arm64.apk",
+  "version": "2.17",
+  "versionCode": 2033,
+  "notes": "- Adaptive layouts: hero, greeting, ribbon, rails, title header, and the audiobook player now scale to YOUR screen (no more one-size assumptions)\n- Rails always show ~3 covers with a peek on any phone\n- Progress chips no longer collide on narrow screens\n- Verified across narrow, short, and tall screen profiles before shipping",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.17.0/MangaRain-v2.17-arm64.apk",
   "sizeMb": 71
 }
