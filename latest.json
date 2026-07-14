@@ -1,7 +1,7 @@
 {
-  "version": "2.13",
-  "versionCode": 2029,
-  "notes": "- Web-exact Home: the Liquid Deep design rendered pixel-for-pixel — storm-glass, rain, cyan wave ribbon, featured hero with rising-bubble water, tide covers, glass Popular tiles\n- Fed by your live library; taps open natively; the reader stays native\n- First step of the web-exact redesign (Detail + Player next)",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.13.0/MangaRain-v2.13-arm64.apk",
+  "version": "2.14",
+  "versionCode": 2030,
+  "notes": "- Native home is back — v2.13's web-rendered home ran poorly on-device, so it's fully native again at smooth 60fps\n- The featured hero is now true frosted glass: it genuinely blurs the rain behind it, with an accent glow and deep shadow\n- Honors your UI Effects toggle and theme",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.14.0/MangaRain-v2.14-arm64.apk",
   "sizeMb": 71
 }
