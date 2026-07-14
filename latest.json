@@ -1,7 +1,7 @@
 {
-  "version": "2.15",
-  "versionCode": 2031,
-  "notes": "- Luminous water: glowing waterline with a soft halo, bright cyan band under the surface, livelier bubbles\n- Covers now sit in glass panes — hairline rim + grounded depth shadows across all rails\n- Brighter wave ribbon, tighter cards, content scrolls clear of the dock\n- Every visual verified live on a device before shipping",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.15.0/MangaRain-v2.15-arm64.apk",
+  "version": "2.16",
+  "versionCode": 2032,
+  "notes": "- Title pages: frosted-glass info card over the cover + a living liquid Continue/Listen button\n- Chapter lists are glass rows with jump-to-chapter search\n- All-new audiobook player: layered voice waveform, liquid scrubber with a glowing droplet head, SPEED/SLEEP pills around a radiant play button\n- Pause from the player now truly pauses (keeps your place + mini-player)\n- Every screen verified live on a device before shipping",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.16.0/MangaRain-v2.16-arm64.apk",
   "sizeMb": 71
 }
