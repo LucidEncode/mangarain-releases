@@ -1,7 +1,7 @@
 {
-  "version": "2.14",
-  "versionCode": 2030,
-  "notes": "- Native home is back — v2.13's web-rendered home ran poorly on-device, so it's fully native again at smooth 60fps\n- The featured hero is now true frosted glass: it genuinely blurs the rain behind it, with an accent glow and deep shadow\n- Honors your UI Effects toggle and theme",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.14.0/MangaRain-v2.14-arm64.apk",
+  "version": "2.15",
+  "versionCode": 2031,
+  "notes": "- Luminous water: glowing waterline with a soft halo, bright cyan band under the surface, livelier bubbles\n- Covers now sit in glass panes — hairline rim + grounded depth shadows across all rails\n- Brighter wave ribbon, tighter cards, content scrolls clear of the dock\n- Every visual verified live on a device before shipping",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.15.0/MangaRain-v2.15-arm64.apk",
   "sizeMb": 71
 }
