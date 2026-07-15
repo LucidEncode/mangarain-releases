@@ -1,7 +1,7 @@
 {
-  "version": "2.18",
-  "versionCode": 2034,
-  "notes": "- Novel reader: pinch to zoom text, and paragraphs are far denser — much more of the chapter fits on screen\n- The player waveform now moves WITH the narration — surging and resting like a real voice, smoother and more watery\n- SLEEP/SPEED controls render correctly at any device font size\n- Title pages load full-resolution cover art (no more stretched thumbnails)",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.18.0/MangaRain-v2.18-arm64.apk",
+  "version": "2.19",
+  "versionCode": 2035,
+  "notes": "The whole-app Liquid Deep pass — Browse, Stories, and Settings now match the water/glass design.\n\n- Browse: glass POPULAR/LATEST tabs and MangaDex/Weeb/Novels source pills; cleaner search\n- Settings: theme, rain intensity, and voice speed are now glass pills that fit every screen size\n- All filter chips restyled to the glass language\n- Voice panel: labels no longer clip; sliders and presets cleaned up\n- Larger, consistent tap targets across the app",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.19.0/MangaRain-v2.19-arm64.apk",
   "sizeMb": 71
 }
