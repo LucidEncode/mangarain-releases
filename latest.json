@@ -1,7 +1,7 @@
 {
-  "version": "2.17",
-  "versionCode": 2033,
-  "notes": "- Adaptive layouts: hero, greeting, ribbon, rails, title header, and the audiobook player now scale to YOUR screen (no more one-size assumptions)\n- Rails always show ~3 covers with a peek on any phone\n- Progress chips no longer collide on narrow screens\n- Verified across narrow, short, and tall screen profiles before shipping",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.17.0/MangaRain-v2.17-arm64.apk",
+  "version": "2.18",
+  "versionCode": 2034,
+  "notes": "- Novel reader: pinch to zoom text, and paragraphs are far denser — much more of the chapter fits on screen\n- The player waveform now moves WITH the narration — surging and resting like a real voice, smoother and more watery\n- SLEEP/SPEED controls render correctly at any device font size\n- Title pages load full-resolution cover art (no more stretched thumbnails)",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.18.0/MangaRain-v2.18-arm64.apk",
   "sizeMb": 71
 }
