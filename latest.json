@@ -1,7 +1,7 @@
 {
-  "version": "2.21",
-  "versionCode": 2037,
-  "notes": "A liquid reader, floating tiles, and glass everywhere.\n\n- The reader is redesigned: a floating glass header, a glowing water tube on the edge that fills as you read, and progress that never covers the page\n- Discovery rows (Popular, Latest) float at staggered heights, like tiles on water\n- Real frosted glass carried further; light-theme panels fixed\n- Named voices + the liquid Continue button from v2.20, refined",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.21.0/MangaRain-v2.21-arm64.apk",
+  "version": "2.22",
+  "versionCode": 2038,
+  "notes": "Glass novel reader + a readable light theme.\n\n- The novel reader now floats the same glass header and bottom bar as the manga reader\n- Light theme fixed: greeting, headings, and titles are dark and readable instead of vanishing into the background\n- Everything from the v2.21 liquid reader, carried through",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.22.0/MangaRain-v2.22-arm64.apk",
   "sizeMb": 71
 }
