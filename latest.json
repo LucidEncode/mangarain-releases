@@ -1,7 +1,7 @@
 {
-  "version": "2.19",
-  "versionCode": 2035,
-  "notes": "The whole-app Liquid Deep pass — Browse, Stories, and Settings now match the water/glass design.\n\n- Browse: glass POPULAR/LATEST tabs and MangaDex/Weeb/Novels source pills; cleaner search\n- Settings: theme, rain intensity, and voice speed are now glass pills that fit every screen size\n- All filter chips restyled to the glass language\n- Voice panel: labels no longer clip; sliders and presets cleaned up\n- Larger, consistent tap targets across the app",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.19.0/MangaRain-v2.19-arm64.apk",
+  "version": "2.20",
+  "versionCode": 2036,
+  "notes": "Closer to the design, named voices, and light-mode rain.\n\n- Real frosted glass across the app — panels blur the storm behind them like the design\n- Voices named by gender & accent (e.g. \"Australian Female\") with ♀/♂ icons\n- Light theme now has visible rain, not a flat grey background\n- The Continue/Resume button is a living liquid blob\n- Brighter wave ribbon and hero water; deeper, more atmospheric background",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.20.0/MangaRain-v2.20-arm64.apk",
   "sizeMb": 71
 }
