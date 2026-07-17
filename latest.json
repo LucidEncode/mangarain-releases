@@ -1,7 +1,7 @@
 {
-  "version": "2.23.3",
-  "versionCode": 2042,
-  "notes": "Bluetooth controls fixed + a new source.\n\nBLUETOOTH: Your headset, car and lock screen now control narration — play/pause and skip a chapter forward/back — and it keeps playing with the screen off or when you leave the app. The phone's text-to-speech was producing the audio in its own process, so Android had nothing to send the buttons to; the app now anchors the audio to itself.\n\nNEW SOURCE: Daisy Novel — romance, werewolf and more, via a clean fast API.\n\nAll of v2.23 is here too: Royal Road, Wattpad, Gutenberg, glass everywhere, droplet icon.\n\nPlease test with a real Bluetooth headset and let me know.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.3/MangaRain-v2.23.3-arm64.apk",
+  "version": "2.23.4",
+  "versionCode": 2043,
+  "notes": "Bluetooth controls — the real fix.\n\nThe earlier tries didn't work on real devices. Researched it properly: it's a known Android bug with text-to-speech, and the audio library ships an official workaround for exactly it that I'd been reinventing by hand.\n\nYour headset, car and lock screen play/pause and chapter skip should now work, and it keeps playing with the screen off or when you leave the app.\n\nPlease test with your real Bluetooth headset and let me know if play/pause and skip work — that's the one thing the emulator can't test.\n\nAlso includes Daisy Novel + all of v2.23.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.4/MangaRain-v2.23.4-arm64.apk",
   "sizeMb": 71
 }
