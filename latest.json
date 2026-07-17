@@ -1,7 +1,7 @@
 {
-  "version": "2.22",
-  "versionCode": 2038,
-  "notes": "Glass novel reader + a readable light theme.\n\n- The novel reader now floats the same glass header and bottom bar as the manga reader\n- Light theme fixed: greeting, headings, and titles are dark and readable instead of vanishing into the background\n- Everything from the v2.21 liquid reader, carried through",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.22.0/MangaRain-v2.22-arm64.apk",
+  "version": "2.23",
+  "versionCode": 2039,
+  "notes": "Two new sources, glass everywhere, and a new face.\n\n- Royal Road: LitRPG and progression fantasy — 1000+ chapter serials load in one shot\n- Wattpad: werewolf and fantasy romance\n- Stories now searches every novel source at once\n- New app icon and splash — a drop landing in its ripples\n- Every sheet is now real frosted glass: voice, reader settings, language, sleep timer\n- Player rebuilt: glowing waveform, rimmed cover, a scrubber you can grab\n- Fixed: Gutenberg listed chapters back to front, so \"Chapter 1\" opened the last chapter\n- Fixed: the Books tab never showed its popular list",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.0/MangaRain-v2.23-arm64.apk",
   "sizeMb": 71
 }
