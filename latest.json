@@ -1,7 +1,7 @@
 {
-  "version": "2.23.6",
-  "versionCode": 2045,
-  "notes": "Performance.\n\nThe app was redrawing too much on every screen — a full-screen animated shader, the rain, and frosted glass all going constantly. On a real phone that pins the GPU and makes everything feel slow, including starting a book. (2.23.5's audio pre-warm ran during startup and made it worse; moved out of the way.)\n\n- Aurora and rain now redraw far less often (looks the same, much lighter) and are isolated so they don't drag the rest of the screen.\n- NEW LITE MODE (Settings): one tap turns off rain, aurora and glass for a fast plain app — best on older phones.\n\nIf it still feels slow, turn on Lite mode and tell me if that fixes it.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.6/MangaRain-v2.23.6-arm64.apk",
+  "version": "2.23.7",
+  "versionCode": 2046,
+  "notes": "Faster start & stop — and a way to pin down the rest.\n\nYou told me the audio itself takes 5-10s to start AND stop every time, and that Lite mode didn't change it. That ruled out the UI, so I went into the narration engine and found a real one:\n\n- On every stop/pause the app was ALSO spinning up the voice engine you are NOT using — creating it from scratch just to stop it, right before stopping the real one. Now it only touches the engine actually playing, and cuts it instantly. Stop should feel snappier right away.\n\nTo fix the \"slow to start\" half exactly, there is a new timing badge:\n  1. Settings > Voice > turn on \"Narration timing\"\n  2. Play a book, then pause it\n  3. A small badge shows e.g. \"start 4200 ms - neural\" and \"stop 120 ms\"\n\nTell me those two numbers (and whether it says neural or device) and I will fix the start delay at the source.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.7/MangaRain-v2.23.7-arm64.apk",
   "sizeMb": 71
 }
