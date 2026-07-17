@@ -1,7 +1,7 @@
 {
-  "version": "2.23",
-  "versionCode": 2039,
-  "notes": "The big one — two new sources, glass everywhere, a new face.\n\nSOURCES: Royal Road (LitRPG), Wattpad (romance), Gutenberg classics — and Stories now searches all of them at once.\n\nLISTENING: Bluetooth, car + headset controls. On-device \"story so far\" recaps. Player rebuilt.\n\nLOOK: New icon and splash. Every sheet is real frosted glass. Buttons, ripples and palette reworked.\n\nFIXED: Gutenberg listed chapters back to front. Books tab never showed its list. Reader settings overflowed. Wattpad narrated its copyright notice.\n\nFull changelog on the releases page.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.0/MangaRain-v2.23-arm64.apk",
+  "version": "2.23.1",
+  "versionCode": 2040,
+  "notes": "The big one — two new sources, glass everywhere, a new face.\n\nSOURCES: Royal Road (LitRPG), Wattpad (romance), Gutenberg classics — and Stories now searches all of them at once.\n\nLISTENING: Bluetooth, car + headset controls. On-device \"story so far\" recaps. Player rebuilt.\n\nLOOK: New droplet icon, and a splash where the drop rains in and the wordmark rises. Every sheet is real frosted glass.\n\nFIXED: Gutenberg listed chapters back to front. Books tab never showed its list. Reader settings overflowed. Wattpad narrated its copyright notice.\n\nFull changelog on the releases page.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.1/MangaRain-v2.23.1-arm64.apk",
   "sizeMb": 71
 }
