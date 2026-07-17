@@ -1,7 +1,7 @@
 {
-  "version": "2.23.5",
-  "versionCode": 2044,
-  "notes": "Faster start.\n\nStarting a book and resuming after pause were slow before audio began. The phone's text-to-speech engine takes ~2s to wake up the first time, and the app was also reloading the voice and restarting the engine on every play even when nothing changed.\n\nNow the engine is warmed up at launch, the voice is only set when it changes, and the needless restart is gone — narration should begin much quicker, especially on resume.\n\nIf things still feel slow in general (not just audio), tell me if it's better with Rain effects off (Settings).",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.5/MangaRain-v2.23.5-arm64.apk",
+  "version": "2.23.6",
+  "versionCode": 2045,
+  "notes": "Performance.\n\nThe app was redrawing too much on every screen — a full-screen animated shader, the rain, and frosted glass all going constantly. On a real phone that pins the GPU and makes everything feel slow, including starting a book. (2.23.5's audio pre-warm ran during startup and made it worse; moved out of the way.)\n\n- Aurora and rain now redraw far less often (looks the same, much lighter) and are isolated so they don't drag the rest of the screen.\n- NEW LITE MODE (Settings): one tap turns off rain, aurora and glass for a fast plain app — best on older phones.\n\nIf it still feels slow, turn on Lite mode and tell me if that fixes it.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.6/MangaRain-v2.23.6-arm64.apk",
   "sizeMb": 71
 }
