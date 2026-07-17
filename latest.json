@@ -1,7 +1,7 @@
 {
-  "version": "2.23.4",
-  "versionCode": 2043,
-  "notes": "Bluetooth controls — the real fix.\n\nThe earlier tries didn't work on real devices. Researched it properly: it's a known Android bug with text-to-speech, and the audio library ships an official workaround for exactly it that I'd been reinventing by hand.\n\nYour headset, car and lock screen play/pause and chapter skip should now work, and it keeps playing with the screen off or when you leave the app.\n\nPlease test with your real Bluetooth headset and let me know if play/pause and skip work — that's the one thing the emulator can't test.\n\nAlso includes Daisy Novel + all of v2.23.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.4/MangaRain-v2.23.4-arm64.apk",
+  "version": "2.23.5",
+  "versionCode": 2044,
+  "notes": "Faster start.\n\nStarting a book and resuming after pause were slow before audio began. The phone's text-to-speech engine takes ~2s to wake up the first time, and the app was also reloading the voice and restarting the engine on every play even when nothing changed.\n\nNow the engine is warmed up at launch, the voice is only set when it changes, and the needless restart is gone — narration should begin much quicker, especially on resume.\n\nIf things still feel slow in general (not just audio), tell me if it's better with Rain effects off (Settings).",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.5/MangaRain-v2.23.5-arm64.apk",
   "sizeMb": 71
 }
