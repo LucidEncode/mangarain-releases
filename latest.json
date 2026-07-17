@@ -1,7 +1,7 @@
 {
-  "version": "2.23.2",
-  "versionCode": 2041,
-  "notes": "Bluetooth controls + sleep-proof listening.\n\nFIXED: Your headset, car and lock screen now actually control narration — play/pause and skip a chapter forward/back. And books keep playing when the screen goes off or you leave the app. Two faults: the media session never reported that it was playing, and nothing ever held audio focus — so Android had no reason to send us the buttons or protect the process.\n\nAlso in 2.23: Royal Road (LitRPG), Wattpad (romance), Gutenberg classics, and Stories searches all of them at once. Bluetooth/car controls, on-device \"story so far\" recaps, rebuilt player. New droplet icon and a splash where the drop rains in. Every sheet is real frosted glass.\n\nFull changelog on the releases page.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.2/MangaRain-v2.23.2-arm64.apk",
+  "version": "2.23.3",
+  "versionCode": 2042,
+  "notes": "Bluetooth controls fixed + a new source.\n\nBLUETOOTH: Your headset, car and lock screen now control narration — play/pause and skip a chapter forward/back — and it keeps playing with the screen off or when you leave the app. The phone's text-to-speech was producing the audio in its own process, so Android had nothing to send the buttons to; the app now anchors the audio to itself.\n\nNEW SOURCE: Daisy Novel — romance, werewolf and more, via a clean fast API.\n\nAll of v2.23 is here too: Royal Road, Wattpad, Gutenberg, glass everywhere, droplet icon.\n\nPlease test with a real Bluetooth headset and let me know.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.3/MangaRain-v2.23.3-arm64.apk",
   "sizeMb": 71
 }
