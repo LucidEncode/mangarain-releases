@@ -1,7 +1,7 @@
 {
-  "version": "2.23.9",
-  "versionCode": 2048,
-  "notes": "Neural narration now runs in real time — no more stalls.\n\nYour timing badge nailed it: the neural voice was synthesizing SLOWER than real time (~18s to start, then stopping mid-chapter waiting for the next audio to render). No buffering trick fixes that — the real fix is a voice model your phone can actually keep up with.\n\nSo the offline neural voices are now the FAST models: the same natural neural speech, but 16kHz and quantized to run about 2x faster. On your phone that should cross the line from \"slower than real time\" to \"faster than real time\" = quick start AND smooth, gap-free playback.\n\nHeads up: the first time you play after updating, your voice re-downloads once (~21MB) — the old slow model is swapped for the fast one. If you had a specific voice picked, it moves to its fast version automatically.\n\nAlso: the engine now warms up at launch so the very first play isn't cold, and it uses more of your CPU cores.\n\nTurn the timing badge back on (Settings > Voice > Narration timing), play a book, and tell me the new start number — and whether the stalling is gone. This should be the one.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.9/MangaRain-v2.23.9-arm64.apk",
+  "version": "2.24.0",
+  "versionCode": 2049,
+  "notes": "Two new manga sources: MangaPill + MangaKatana.\n\nTwo big, free manga/manhwa libraries, added alongside MangaDex and Weeb Central. In Browse, tap the source pills to search each one - full support for search, covers, chapter lists (newest-first), and the reader. You can also switch a title between sources from its detail page.\n\nHeads up: the second source you asked about, Natomanga, turned out to be Cloudflare-locked - every page is a \"checking your browser\" wall the app can't get past - so I swapped in MangaKatana, a cleaner and fully-working library, instead.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.24.0/MangaRain-v2.24.0-arm64.apk",
   "sizeMb": 71
 }
