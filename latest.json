@@ -1,7 +1,7 @@
 {
-  "version": "2.23.8",
-  "versionCode": 2047,
-  "notes": "Neural narration starts fast now.\n\nYou measured it with the timing badge: the neural voice took ~18 SECONDS to start every play. The reason: your phone synthesizes the neural voice slower than real time, and the app was waiting for the WHOLE opening sentence before making a single sound.\n\nTwo fixes:\n- It now plays the first few words almost immediately and streams the rest behind them, so audio starts in a few seconds instead of 18.\n- The neural engine now uses more of your phone's CPU cores (was capped at 2), so all synthesis is faster.\n\n(Stop is already instant as of 2.23.7.)\n\nCheck the timing badge again (Settings > Voice > Narration timing) and tell me the new \"start\" number — I'm expecting a big drop. If it's still not fast enough on your phone, the next lever is a lighter \"Fast\" neural voice built for slower devices.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.8/MangaRain-v2.23.8-arm64.apk",
+  "version": "2.23.9",
+  "versionCode": 2048,
+  "notes": "Neural narration now runs in real time — no more stalls.\n\nYour timing badge nailed it: the neural voice was synthesizing SLOWER than real time (~18s to start, then stopping mid-chapter waiting for the next audio to render). No buffering trick fixes that — the real fix is a voice model your phone can actually keep up with.\n\nSo the offline neural voices are now the FAST models: the same natural neural speech, but 16kHz and quantized to run about 2x faster. On your phone that should cross the line from \"slower than real time\" to \"faster than real time\" = quick start AND smooth, gap-free playback.\n\nHeads up: the first time you play after updating, your voice re-downloads once (~21MB) — the old slow model is swapped for the fast one. If you had a specific voice picked, it moves to its fast version automatically.\n\nAlso: the engine now warms up at launch so the very first play isn't cold, and it uses more of your CPU cores.\n\nTurn the timing badge back on (Settings > Voice > Narration timing), play a book, and tell me the new start number — and whether the stalling is gone. This should be the one.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.9/MangaRain-v2.23.9-arm64.apk",
   "sizeMb": 71
 }
