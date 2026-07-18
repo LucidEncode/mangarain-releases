@@ -1,7 +1,7 @@
 {
-  "version": "2.23.7",
-  "versionCode": 2046,
-  "notes": "Faster start & stop — and a way to pin down the rest.\n\nYou told me the audio itself takes 5-10s to start AND stop every time, and that Lite mode didn't change it. That ruled out the UI, so I went into the narration engine and found a real one:\n\n- On every stop/pause the app was ALSO spinning up the voice engine you are NOT using — creating it from scratch just to stop it, right before stopping the real one. Now it only touches the engine actually playing, and cuts it instantly. Stop should feel snappier right away.\n\nTo fix the \"slow to start\" half exactly, there is a new timing badge:\n  1. Settings > Voice > turn on \"Narration timing\"\n  2. Play a book, then pause it\n  3. A small badge shows e.g. \"start 4200 ms - neural\" and \"stop 120 ms\"\n\nTell me those two numbers (and whether it says neural or device) and I will fix the start delay at the source.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.7/MangaRain-v2.23.7-arm64.apk",
+  "version": "2.23.8",
+  "versionCode": 2047,
+  "notes": "Neural narration starts fast now.\n\nYou measured it with the timing badge: the neural voice took ~18 SECONDS to start every play. The reason: your phone synthesizes the neural voice slower than real time, and the app was waiting for the WHOLE opening sentence before making a single sound.\n\nTwo fixes:\n- It now plays the first few words almost immediately and streams the rest behind them, so audio starts in a few seconds instead of 18.\n- The neural engine now uses more of your phone's CPU cores (was capped at 2), so all synthesis is faster.\n\n(Stop is already instant as of 2.23.7.)\n\nCheck the timing badge again (Settings > Voice > Narration timing) and tell me the new \"start\" number — I'm expecting a big drop. If it's still not fast enough on your phone, the next lever is a lighter \"Fast\" neural voice built for slower devices.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.23.8/MangaRain-v2.23.8-arm64.apk",
   "sizeMb": 71
 }
