@@ -1,0 +1,7 @@
+{
+  "version": "2.25.0",
+  "versionCode": 50,
+  "notes": "New: Asura Scans manga source. Desktop narration overhaul: pick any of 12 neural voices or your installed Windows voices, volume + speed controls now work, and narration no longer stalls mid-chapter. Fixed: 'Page Not Found' when opening MangaPill chapters. Desktop now updates itself automatically (this feature starts with this version).",
+  "zipUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/desktop-v2.25.0/MangaRain-Windows-v2.25.0.zip",
+  "sizeMb": 233
+}
