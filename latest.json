@@ -1,7 +1,7 @@
 {
-  "version": "2.24.0",
-  "versionCode": 2049,
-  "notes": "Two new manga sources: MangaPill + MangaKatana.\n\nTwo big, free manga/manhwa libraries, added alongside MangaDex and Weeb Central. In Browse, tap the source pills to search each one - full support for search, covers, chapter lists (newest-first), and the reader. You can also switch a title between sources from its detail page.\n\nHeads up: the second source you asked about, Natomanga, turned out to be Cloudflare-locked - every page is a \"checking your browser\" wall the app can't get past - so I swapped in MangaKatana, a cleaner and fully-working library, instead.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.24.0/MangaRain-v2.24.0-arm64.apk",
+  "version": "2.25.1",
+  "versionCode": 2051,
+  "notes": "Narration reliability fix — the voice no longer cuts out, stalls, or goes silent mid-chapter. And if the offline neural voice ever can't load, narration now falls back to your device voice instead of playing nothing.\n\nNew source: Asura Scans — a big manhwa library, now in Browse alongside the others (search, covers, newest-first chapters, full reader). Switch any title to it from the detail page.\n\nAlso fixed: 'Page Not Found' when opening some MangaPill chapters.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.25.1/MangaRain-v2.25.1-arm64.apk",
   "sizeMb": 71
 }
