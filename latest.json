@@ -1,7 +1,7 @@
 {
-  "version": "2.25.1",
-  "versionCode": 2051,
-  "notes": "Narration reliability fix — the voice no longer cuts out, stalls, or goes silent mid-chapter. And if the offline neural voice ever can't load, narration now falls back to your device voice instead of playing nothing.\n\nNew source: Asura Scans — a big manhwa library, now in Browse alongside the others (search, covers, newest-first chapters, full reader). Switch any title to it from the detail page.\n\nAlso fixed: 'Page Not Found' when opening some MangaPill chapters.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.25.1/MangaRain-v2.25.1-arm64.apk",
+  "version": "2.25.2",
+  "versionCode": 2052,
+  "notes": "Stories now read like stories.\n\nSome chapters were arriving as one giant wall of text — which meant tapping a paragraph to jump there didn't work, the highlight covered the whole chapter, and if you stopped partway you had to listen to the whole thing again to find your place. Every source now gets proper paragraphs, so tap-to-listen, the highlight, your resume point and the progress bar all work the way they should.\n\nAlso in this update: the narration reliability fixes from 2.25.1, and Asura Scans in Browse.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.25.2/MangaRain-v2.25.2-arm64.apk",
   "sizeMb": 71
 }
