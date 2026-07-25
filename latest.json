@@ -1,7 +1,7 @@
 {
-  "version": "2.25.2",
-  "versionCode": 2052,
-  "notes": "Stories now read like stories.\n\nSome chapters were arriving as one giant wall of text — which meant tapping a paragraph to jump there didn't work, the highlight covered the whole chapter, and if you stopped partway you had to listen to the whole thing again to find your place. Every source now gets proper paragraphs, so tap-to-listen, the highlight, your resume point and the progress bar all work the way they should.\n\nAlso in this update: the narration reliability fixes from 2.25.1, and Asura Scans in Browse.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.25.2/MangaRain-v2.25.2-arm64.apk",
+  "version": "2.26.0",
+  "versionCode": 2053,
+  "notes": "Make it yours.\n\nYour name — add one in Settings › You and the home screen greets you by it: \"Good evening, Rain\". Change or clear it any time.\n\nMain source — pick which source Browse opens to in Settings › Browse. You can still switch sources from the pills whenever you like; this just sets your starting point.\n\nMidnight theme — a new, optional pure-black night sky with the rain and distant lightning flashing behind it. Great for AMOLED screens and reading at night. Settings › Appearance › Midnight.\n\nAlso fixed: the rain could freeze into a still frame after toggling Lite mode off and on.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.26.0/MangaRain-v2.26.0-arm64.apk",
   "sizeMb": 71
 }
