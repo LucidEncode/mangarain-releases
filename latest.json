@@ -1,7 +1,7 @@
 {
-  "version": "2.26.0",
-  "versionCode": 2053,
-  "notes": "Make it yours.\n\nYour name — add one in Settings › You and the home screen greets you by it: \"Good evening, Rain\". Change or clear it any time.\n\nMain source — pick which source Browse opens to in Settings › Browse. You can still switch sources from the pills whenever you like; this just sets your starting point.\n\nMidnight theme — a new, optional pure-black night sky with the rain and distant lightning flashing behind it. Great for AMOLED screens and reading at night. Settings › Appearance › Midnight.\n\nAlso fixed: the rain could freeze into a still frame after toggling Lite mode off and on.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.26.0/MangaRain-v2.26.0-arm64.apk",
+  "version": "2.27.0",
+  "versionCode": 2054,
+  "notes": "Your sources, everywhere.\n\nPicking a main source used to just change the pills. Now it actually runs the app: Popular and Latest on Home, in Browse and in Stories all come from the site YOU chose — real feeds pulled from Weeb Central, MangaPill, MangaKatana, Asura Scans, Royal Road, Wattpad, Daisy Novel, findnovel and Gutenberg — and each shelf says whose it is.\n\nComics and books get their own home site (Settings › Your sources), because they're different libraries.\n\nOpen a series and it comes from your site first. Anything you're already reading stays exactly where you left it, and if a title isn't on your site the switcher is right there.\n\nBooks also gained a Popular/Latest toggle. Fixed: a junk entry that could appear in MangaKatana search results.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.27.0/MangaRain-v2.27.0-arm64.apk",
   "sizeMb": 71
 }
