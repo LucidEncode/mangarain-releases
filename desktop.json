@@ -1,7 +1,7 @@
 {
-  "version": "2.26.0",
-  "versionCode": 53,
-  "notes": "Make it yours. Add your name in Settings › You and the home screen greets you by it. Pick which source Browse opens to in Settings › Browse (the pills still switch freely). And there's a new optional Midnight theme: a pure-black night sky with rain and distant lightning, in Settings › Appearance. Also fixed: the rain could freeze into a still frame after toggling Lite mode off and on.",
-  "zipUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/desktop-v2.26.0/MangaRain-Windows-v2.26.0.zip",
+  "version": "2.27.0",
+  "versionCode": 54,
+  "notes": "Your sources, everywhere. Picking a main source now actually runs the app: Popular and Latest on Home, in Browse and in Stories all come from the site you chose, with real feeds from every source — and each shelf says whose it is. Comics and books get their own home site (Settings › Your sources). Open a series and it comes from your site first; anything you're already reading stays put, and the switcher is there when a title isn't available. Books also gained a Popular/Latest toggle.",
+  "zipUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/desktop-v2.27.0/MangaRain-Windows-v2.27.0.zip",
   "sizeMb": 66
 }
