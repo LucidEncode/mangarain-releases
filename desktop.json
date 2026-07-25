@@ -1,7 +1,7 @@
 {
-  "version": "2.25.2",
-  "versionCode": 52,
-  "notes": "Stories now read like stories. Some chapters were arriving as one giant wall of text, so tapping a paragraph to jump there didn't work, the highlight covered the whole chapter, and stopping partway meant replaying it to find your place. Every source now gets proper paragraphs, so tap-to-listen, the highlight, your resume point and the progress bar all behave. Also includes the narration reliability fixes.",
-  "zipUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/desktop-v2.25.2/MangaRain-Windows-v2.25.2.zip",
-  "sizeMb": 233
+  "version": "2.26.0",
+  "versionCode": 53,
+  "notes": "Make it yours. Add your name in Settings › You and the home screen greets you by it. Pick which source Browse opens to in Settings › Browse (the pills still switch freely). And there's a new optional Midnight theme: a pure-black night sky with rain and distant lightning, in Settings › Appearance. Also fixed: the rain could freeze into a still frame after toggling Lite mode off and on.",
+  "zipUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/desktop-v2.26.0/MangaRain-Windows-v2.26.0.zip",
+  "sizeMb": 66
 }
