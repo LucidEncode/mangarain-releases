@@ -1,7 +1,7 @@
 {
-  "version": "2.27.0",
-  "versionCode": 2054,
-  "notes": "Your sources, everywhere.\n\nPicking a main source used to just change the pills. Now it actually runs the app: Popular and Latest on Home, in Browse and in Stories all come from the site YOU chose — real feeds pulled from Weeb Central, MangaPill, MangaKatana, Asura Scans, Royal Road, Wattpad, Daisy Novel, findnovel and Gutenberg — and each shelf says whose it is.\n\nComics and books get their own home site (Settings › Your sources), because they're different libraries.\n\nOpen a series and it comes from your site first. Anything you're already reading stays exactly where you left it, and if a title isn't on your site the switcher is right there.\n\nBooks also gained a Popular/Latest toggle. Fixed: a junk entry that could appear in MangaKatana search results.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.27.0/MangaRain-v2.27.0-arm64.apk",
+  "version": "2.28.0",
+  "versionCode": 2055,
+  "notes": "A far better narrator — try it.\n\nSettings › Voice now has a BEST / LIGHTER switch. BEST is a new engine (Supertonic) that reads at 44.1 kHz instead of 16 kHz — much closer to a real recording — and carries ten narrators in a single download, so once it's there you can change voice instantly with nothing to wait for.\n\nIt's off by default on purpose: it's a big change to the part of the app that matters most, so you turn it on rather than having it turned on for you. The lighter voice stays exactly as it was, and you can switch back at any time.\n\nAlso fixed: a voice change could land mid-sentence, and a failed voice download could drop narration to the robotic system voice even when a good voice was already on your phone.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.28.0/MangaRain-v2.28.0-arm64.apk",
   "sizeMb": 71
 }
