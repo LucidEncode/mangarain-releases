@@ -1,7 +1,7 @@
 {
-  "version": "2.33.0",
-  "versionCode": 2068,
-  "notes": "Read-along now reads each balloon in the order it is printed.\n\nSpeech bubbles are lettered centre-aligned, so a short line starts further right than a long one — and the app was sorting a balloon's own lines left to right. It read them in order of line width. \"I'm sorry to keep interrupting, but I cannot stay in one place for too long\" came out as three sentences in the wrong order. That is fixed.\n\nIt also stops deleting things. Shouts and laughter were being thrown away in silence — WHAAAT?!, AKIRAAAA!, HAHAHA, DIE! DIE! — because anything not on a short internal list was dropped, while untranslated Japanese sound effects were read out. Both sides were backwards.\n\nAnd a line printed once is spoken once: repeated balloons are now matched by where they sit on the page rather than by their spelling, which is what the text reader gets wrong.\n\nFound by transcribing a real chapter on a device and comparing it to the pictures, rather than by listening.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.33.0/MangaRain-v2.33.0-arm64.apk",
+  "version": "2.33.1",
+  "versionCode": 2069,
+  "notes": "Ordinary dialogue is no longer read as inner monologue.\n\nThe app tried to tell a thought balloon from a speech balloon by measuring how uneven its outline was. Measured on a real chapter, that number turned out to be meaningless: twenty-one plain round speech bubbles on one page scored all over the range, well past the line that means \"thought\". Nineteen of twenty-one lines of normal conversation were being spoken in the thought voice, and slower.\n\nIt has been removed rather than adjusted, because there was nothing there to adjust. A bubble is speech, big lettering is a shout, words on the artwork are narration. Real thought bubbles come back when the app can see an actual outline.\n\nComes with 2.33.0, if you skipped it: every balloon is read in the order it is printed, and shouts and laughter are no longer deleted in silence.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.33.1/MangaRain-v2.33.1-arm64.apk",
   "sizeMb": 71
 }
