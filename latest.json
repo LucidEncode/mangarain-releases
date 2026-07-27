@@ -1,7 +1,7 @@
 {
-  "version": "2.34.0",
-  "versionCode": 2070,
-  "notes": "Read-along reads the chapter ahead of itself.\n\nWorking out what a tall webtoon page says takes about fifteen seconds on a phone. That wait used to land the moment you pressed play — silence, with nothing to say why. The app now works through the rest of the chapter in the background while the voice reads the pages it has already done, so the wait is paid once, out of sight, and never again for that chapter.\n\nReader settings has a \"Prepare this chapter\" button with a progress bar if you would rather do it before pressing play.\n\nThis also removes the rule that everything had to run faster than speech — which is what has been keeping better voices out.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.34.0/MangaRain-v2.34.0-arm64.apk",
+  "version": "2.35.0",
+  "versionCode": 2071,
+  "notes": "A speech balloon is now said in one breath.\n\nThe text reader hands back a bubble either whole or split into its printed lines, and nothing about the page says which. When it split, the voice read each piece as its own sentence — \"Could you.\" \"Calmly explain to me.\" \"What happened?\" — for a bubble that reads \"Could you calmly explain to me what happened?\". The words were right and it still sounded broken. A bubble's lines are put back together now.\n\nOn the page this was measured against, three chopped-up bubbles became whole sentences.\n\nPreparing a chapter can also be stopped now, and picks up where it left off — a long chapter is several minutes of work and there was no way out of it.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.35.0/MangaRain-v2.35.0-arm64.apk",
   "sizeMb": 71
 }
