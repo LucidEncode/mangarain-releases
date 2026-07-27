@@ -1,7 +1,7 @@
 {
-  "version": "2.37.0",
-  "versionCode": 2073,
-  "notes": "Cleaner reading on every art style.\n\n• Words the text reader mangled into numbers are repaired before they're spoken — no more \"b zero zero y\" where the page says \"body\".\n• Real numbers still read as numbers: chapters, years, times, \"7th-gen\".\n• Scribbles picked up off the artwork are no longer read out mid-scene.\n\nTested across six titles from two sources, from tall webtoon strips to double-page manga spreads.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.37.0/MangaRain-v2.37.0-arm64.apk",
+  "version": "2.38.0",
+  "versionCode": 2074,
+  "notes": "One character, one voice.\n\nCasting was splitting a single person's speech across two voices — three bubbles of one sentence read by two different narrators. It now only tells speakers apart when a panel really holds two bubbles side by side, which is two people facing each other. A page without one is read in a single voice.\n\nStill a best guess: it can be wrong when one character's bubbles wander across a page. Properly telling speakers apart means reading each bubble's tail, which is coming.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.38.0/MangaRain-v2.38.0-arm64.apk",
   "sizeMb": 71
 }
