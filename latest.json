@@ -1,7 +1,7 @@
 {
-  "version": "2.31.1",
-  "versionCode": 2065,
-  "notes": "No more hearing the same line twice.\n\nLong pages are read in overlapping slices so a speech balloon sitting on a join survives whole. When the same balloon turned up in two slices the app was meant to notice and read it once — but it compared the two copies letter for letter, and the text reader makes slightly different mistakes on each slice (\"don't\" in one, \"dont\" in the other). Neither copy matched, so both were read aloud.\n\nThey are now compared by their words rather than their spelling, and a balloon cut across a join is recognised as one balloon instead of two neighbours.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.31.1/MangaRain-v2.31.1-arm64.apk",
+  "version": "2.32.1",
+  "versionCode": 2067,
+  "notes": "Read-along now remembers what it read.\n\nWorking out what a page says is slow and imperfect, and until now the answer was thrown away when you closed the app — so every re-read paid for it again, and every mistake came back identically. It is kept now. Coming back to a chapter is instant, and a page it got wrong can eventually be corrected once and stay corrected.\n\nAlongside that, three faults found by reviewing the change before shipping it:\n\nEvery page turn had two pages being read at once from the same three temporary files, because the files were named after the slice and not the page. A page could be narrated with the next page's dialogue, or quietly fall back to the blurry whole-page reading that slicing exists to replace.\n\nA balloon of a single word — \"WHAT?!\", \"HUH?\" — was never recognised as a repeat, so any of them near a slice join was read out twice. The commonest balloon in comics was the one exempt from the check.\n\nAnd a remembered page had no way back. Reader settings now has \"Forget this chapter\", and anything remembered by an older version is re-read rather than trusted.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.32.1/MangaRain-v2.32.1-arm64.apk",
   "sizeMb": 71
 }
