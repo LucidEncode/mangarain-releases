@@ -1,7 +1,7 @@
 {
-  "version": "2.33.1",
-  "versionCode": 2069,
-  "notes": "Ordinary dialogue is no longer read as inner monologue.\n\nThe app tried to tell a thought balloon from a speech balloon by measuring how uneven its outline was. Measured on a real chapter, that number turned out to be meaningless: twenty-one plain round speech bubbles on one page scored all over the range, well past the line that means \"thought\". Nineteen of twenty-one lines of normal conversation were being spoken in the thought voice, and slower.\n\nIt has been removed rather than adjusted, because there was nothing there to adjust. A bubble is speech, big lettering is a shout, words on the artwork are narration. Real thought bubbles come back when the app can see an actual outline.\n\nComes with 2.33.0, if you skipped it: every balloon is read in the order it is printed, and shouts and laughter are no longer deleted in silence.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.33.1/MangaRain-v2.33.1-arm64.apk",
+  "version": "2.34.0",
+  "versionCode": 2070,
+  "notes": "Read-along reads the chapter ahead of itself.\n\nWorking out what a tall webtoon page says takes about fifteen seconds on a phone. That wait used to land the moment you pressed play — silence, with nothing to say why. The app now works through the rest of the chapter in the background while the voice reads the pages it has already done, so the wait is paid once, out of sight, and never again for that chapter.\n\nReader settings has a \"Prepare this chapter\" button with a progress bar if you would rather do it before pressing play.\n\nThis also removes the rule that everything had to run faster than speech — which is what has been keeping better voices out.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.34.0/MangaRain-v2.34.0-arm64.apk",
   "sizeMb": 71
 }
