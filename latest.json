@@ -1,7 +1,7 @@
 {
-  "version": "2.36.0",
-  "versionCode": 2072,
-  "notes": "Cast mode was doing nothing at all.\n\nYou said narrator and cast \"read the same\" — they were the same. The app worked out who was speaking by looking for a wide gap between the bubbles on the left and the bubbles on the right, and demanded that gap be a quarter of the page wide. That fits a manga page where two characters face each other. On a tall webtoon strip every bubble sits near the middle, so the gap was never wide enough, the app gave up, and every line came out with no speaker at all.\n\nIt now looks at whether the bubbles form two groups rather than where the biggest hole is. On the page this was measured against, 17 bubbles split cleanly 9 and 8, and every line now has a voice where none did.\n\nHonestly: this is still position, not identity. It assumes each character keeps to their own side, which is a habit rather than a rule, so some lines will land in the wrong voice until the app can read a bubble's tail.\n\nAlso: the publisher's credit slab on page one is no longer read out.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.36.0/MangaRain-v2.36.0-arm64.apk",
+  "version": "2.37.0",
+  "versionCode": 2073,
+  "notes": "Cleaner reading on every art style.\n\n• Words the text reader mangled into numbers are repaired before they're spoken — no more \"b zero zero y\" where the page says \"body\".\n• Real numbers still read as numbers: chapters, years, times, \"7th-gen\".\n• Scribbles picked up off the artwork are no longer read out mid-scene.\n\nTested across six titles from two sources, from tall webtoon strips to double-page manga spreads.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.37.0/MangaRain-v2.37.0-arm64.apk",
   "sizeMb": 71
 }
