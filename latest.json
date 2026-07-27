@@ -1,7 +1,7 @@
 {
-  "version": "2.30.2",
-  "versionCode": 2062,
+  "version": "2.30.3",
+  "versionCode": 2063,
   "notes": "Reading comics aloud: the app can finally see the text properly.\n\nWords were coming out with letters missing — \"SUICIDE\" read as \"sucde\", \"STRESS\" as \"stres\" — and most of a page's text was never found at all, so a whole chapter would be spoken in a handful of lines and skip past in a few jumps.\n\nOne cause behind both. A webtoon chapter is a single enormous image, sometimes ten thousand pixels tall, and the text reader shrinks whatever it is given before it looks at it. A strip that tall arrived as a thumbnail with the lettering a few pixels high — the app was never really being shown the page, only a picture of it.\n\nTall pages are now read in slices, each at its true size, so the lettering is the size it was drawn. The slices overlap so a speech balloon sitting on a join is complete in at least one of them, and the repeats that creates are merged.\n\nAlso new, for anyone reporting a problem: turn on Settings > Narration timing and the caption strip gains a small line showing which voice engine actually spoke, which narrator, and what the app decided the line was. A screen recording then carries the answer to \"which voice was that?\" instead of leaving it to guesswork.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.30.2/MangaRain-v2.30.2-arm64.apk",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.30.3/MangaRain-v2.30.3-arm64.apk",
   "sizeMb": 71
 }
