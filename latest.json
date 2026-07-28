@@ -1,7 +1,7 @@
 {
-  "version": "2.42.0",
-  "versionCode": 2078,
-  "notes": "Two characters, two voices.\n\nWhen casting picked voices for two people talking, it could land on two that sound the same — near-identical in pitch, so it came across as one voice doing both parts. It now picks voices far enough apart to tell apart.\n\nShouted names are no longer swallowed: \"GON!\", \"BAN!\", \"KIRA!\" were being treated as sound effects and read as silence.\n\nAnd a line you correct now stays corrected even when the source serves the page from a different address.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.42.0/MangaRain-v2.42.0-arm64.apk",
-  "sizeMb": 71
+  "version": "2.43.0",
+  "versionCode": 2079,
+  "notes": "One voice per character, page after page.\n\nRead-along used to decide who was speaking one page at a time, so when the camera flipped, a character's voice swapped with them. Casting now follows a conversation across the whole chapter and holds each character's voice for as long as the scene lasts.\n\n• A sentence drawn across two balloons stays in one voice, the way it was lettered.\n• When the page genuinely doesn't say who's speaking, it reads in your chosen voice instead of guessing.\n• Narrator mode is one voice for the story and one for the talking — always.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.43.0/MangaRain-v2.43.0-arm64.apk",
+  "sizeMb": 71.5
 }
