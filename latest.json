@@ -1,7 +1,7 @@
 {
-  "version": "2.41.0",
-  "versionCode": 2077,
-  "notes": "Starts where you are.\n\nIn webtoon mode, scrolling down the chapter and pressing play used to read from the page you opened on and jump the view back there. It now starts from wherever you have scrolled to.\n\nThe voice also warms up while the page is being read instead of afterwards, so there is less of a pause before the first word.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.41.0/MangaRain-v2.41.0-arm64.apk",
+  "version": "2.42.0",
+  "versionCode": 2078,
+  "notes": "Two characters, two voices.\n\nWhen casting picked voices for two people talking, it could land on two that sound the same — near-identical in pitch, so it came across as one voice doing both parts. It now picks voices far enough apart to tell apart.\n\nShouted names are no longer swallowed: \"GON!\", \"BAN!\", \"KIRA!\" were being treated as sound effects and read as silence.\n\nAnd a line you correct now stays corrected even when the source serves the page from a different address.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.42.0/MangaRain-v2.42.0-arm64.apk",
   "sizeMb": 71
 }
