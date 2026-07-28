@@ -1,7 +1,7 @@
 {
-  "version": "2.40.0",
-  "versionCode": 2076,
-  "notes": "Half the waiting is gone.\n\nRead-along was making each line's audio only after the line before it had finished — so about half of it was silence between sentences. It now works on the next line while the current one is still playing.\n\nMeasured on a device: the same five lines took 44 seconds and now take 30, with exactly the same speech in them.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.40.0/MangaRain-v2.40.0-arm64.apk",
+  "version": "2.41.0",
+  "versionCode": 2077,
+  "notes": "Starts where you are.\n\nIn webtoon mode, scrolling down the chapter and pressing play used to read from the page you opened on and jump the view back there. It now starts from wherever you have scrolled to.\n\nThe voice also warms up while the page is being read instead of afterwards, so there is less of a pause before the first word.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.41.0/MangaRain-v2.41.0-arm64.apk",
   "sizeMb": 71
 }
