@@ -1,7 +1,7 @@
 {
-  "version": "2.39.0",
-  "versionCode": 2075,
-  "notes": "Fix a line and it stays fixed.\n\nTap the caption strip while read-along is running and you can rewrite what it says. Your wording is kept for that page and never overwritten — not when the page is read again, not by a future update.\n\nUseful for names above all. The text reader gets character names wrong in ways no automatic spellcheck can fix without mangling the ones it got right, so now you can just tell it.\n\nAlso: a few more words the reader turned into numbers are read as words again.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.39.0/MangaRain-v2.39.0-arm64.apk",
+  "version": "2.40.0",
+  "versionCode": 2076,
+  "notes": "Half the waiting is gone.\n\nRead-along was making each line's audio only after the line before it had finished — so about half of it was silence between sentences. It now works on the next line while the current one is still playing.\n\nMeasured on a device: the same five lines took 44 seconds and now take 30, with exactly the same speech in them.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.40.0/MangaRain-v2.40.0-arm64.apk",
   "sizeMb": 71
 }
