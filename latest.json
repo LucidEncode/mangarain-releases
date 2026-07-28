@@ -1,7 +1,7 @@
 {
-  "version": "2.38.0",
-  "versionCode": 2074,
-  "notes": "One character, one voice.\n\nCasting was splitting a single person's speech across two voices — three bubbles of one sentence read by two different narrators. It now only tells speakers apart when a panel really holds two bubbles side by side, which is two people facing each other. A page without one is read in a single voice.\n\nStill a best guess: it can be wrong when one character's bubbles wander across a page. Properly telling speakers apart means reading each bubble's tail, which is coming.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.38.0/MangaRain-v2.38.0-arm64.apk",
+  "version": "2.39.0",
+  "versionCode": 2075,
+  "notes": "Fix a line and it stays fixed.\n\nTap the caption strip while read-along is running and you can rewrite what it says. Your wording is kept for that page and never overwritten — not when the page is read again, not by a future update.\n\nUseful for names above all. The text reader gets character names wrong in ways no automatic spellcheck can fix without mangling the ones it got right, so now you can just tell it.\n\nAlso: a few more words the reader turned into numbers are read as words again.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.39.0/MangaRain-v2.39.0-arm64.apk",
   "sizeMb": 71
 }
