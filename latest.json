@@ -1,7 +1,7 @@
 {
-  "version": "2.43.0",
-  "versionCode": 2079,
-  "notes": "One voice per character, page after page.\n\nRead-along used to decide who was speaking one page at a time, so when the camera flipped, a character's voice swapped with them. Casting now follows a conversation across the whole chapter and holds each character's voice for as long as the scene lasts.\n\n• A sentence drawn across two balloons stays in one voice, the way it was lettered.\n• When the page genuinely doesn't say who's speaking, it reads in your chosen voice instead of guessing.\n• Narrator mode is one voice for the story and one for the talking — always.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.43.0/MangaRain-v2.43.0-arm64.apk",
+  "version": "2.44.0",
+  "versionCode": 2080,
+  "notes": "Every page is now read panel by panel.\n\nRead-along used to work down a page by height, which meant two panels side by side had their balloons shuffled into each other — you'd hear half of one man's sentence, then half of the other's. Pages are now followed panel by panel, in the page's own direction, the way you read them.\n\n• Sentences split across balloons come out whole instead of in pieces.\n• Japanese pages read right to left properly, including double-page spreads.\n• Webtoons and manhwa are unchanged — they already read straight down.\n• Two stacked balloons that make up one line now share one voice.\n\nPages you've already prepared will be re-read once, so they pick up the new order.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.44.0/MangaRain-v2.44.0-arm64.apk",
   "sizeMb": 71.5
 }
