@@ -1,7 +1,7 @@
 {
-  "version": "2.44.0",
-  "versionCode": 2080,
-  "notes": "Every page is now read panel by panel.\n\nRead-along used to work down a page by height, which meant two panels side by side had their balloons shuffled into each other — you'd hear half of one man's sentence, then half of the other's. Pages are now followed panel by panel, in the page's own direction, the way you read them.\n\n• Sentences split across balloons come out whole instead of in pieces.\n• Japanese pages read right to left properly, including double-page spreads.\n• Webtoons and manhwa are unchanged — they already read straight down.\n• Two stacked balloons that make up one line now share one voice.\n\nPages you've already prepared will be re-read once, so they pick up the new order.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.44.0/MangaRain-v2.44.0-arm64.apk",
+  "version": "2.45.0",
+  "versionCode": 2081,
+  "notes": "Balloons are read whole.\n\nA speech balloon's lettering comes to the app as separate lines, and read-along was stopping between them — so a sentence would break a word or two before the end and start again. \"Your sword isn't reaching… you.\" Now a balloon is spoken as the sentence it was lettered as.\n\n• Short words no longer break a sentence. Whether a word happened to have a tall letter in it was deciding where the voice paused.\n• Long balloons hold together to the end. The longer the sentence ran, the more likely its last words came adrift.\n\nBest noticed on Japanese page manga, where balloons carry the most lines.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.45.0/MangaRain-v2.45.0-arm64.apk",
   "sizeMb": 71.5
 }
