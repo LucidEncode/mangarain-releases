@@ -1,7 +1,7 @@
 {
-  "version": "2.47.0",
-  "versionCode": 2083,
-  "notes": "Saved chapters are really saved now.\n\nDownloading a chapter used to fetch every page and tick it green — and then open it from the network anyway. With no signal you got nothing. The saved pages are now what the reader opens.\n\n• Every site, not just MangaDex. Asura, Weeb Central, MangaPill and MangaKatana chapters can all be saved.\n• Save next 1 / 5 / 10 / 20 from the Chapters header — the next ones you haven't read, not the oldest ones, one at a time so it doesn't hog your connection.\n• A saved chapter shows a tick you can tap to remove it, and one that failed shows a retry instead of pretending it worked.\n• A half-finished download never opens as a chapter with pages missing.\n\nPair it with v2.46's kept narration and a saved chapter reads and reads aloud with no connection at all.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.47.0/MangaRain-v2.47.0-arm64.apk",
-  "sizeMb": 71.5
+  "version": "2.48.0",
+  "versionCode": 2084,
+  "notes": "It reads the panels, not the credits.\n\nFrom listening to a chapter end to end — this is the first round of fixes from that.\n\n• No more title card. Every chapter opened by reading the series name, then said it again over the first panel. Both gone.\n• No more studio credit read out as gibberish at the end of a chapter.\n• Lines stop being clipped. A short line could have its \"finished\" signal missed, and the stale signal then cut the next line off a word or two in. Every clip also ends with a beat of silence now, so nothing gets trimmed off the last syllable.\n• Swearing is spoken. If the page bleeps it, you hear the word rather than the engine spelling out a symbol.\n\nStill on the list from that listen: sound effects, and characters changing voice mid-scene.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.48.0/MangaRain-v2.48.0-arm64.apk",
+  "sizeMb": 71.6
 }
