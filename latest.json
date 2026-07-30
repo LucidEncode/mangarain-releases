@@ -1,7 +1,7 @@
 {
-  "version": "2.50.0",
-  "versionCode": 2087,
-  "notes": "One balloon at a time.\n\nWhen two speech balloons sat side by side in neighbouring panels, read-along was reading them a piece at a time — half of one person's sentence, then half of the other's, then the rest of the first. It's the worst thing a page can do and it's fixed.\n\nA page from Tales of Demons and Gods went from eight scrambled fragments to six whole balloons, each read start to finish before the next panel begins.\n\nVertical webtoons are unaffected — their balloons stack, so there was nothing to scramble. This is for pages laid out in panels across the width.\n\nChapters you've already read will re-read their pages once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.50.0/MangaRain-v2.50.0-arm64.apk",
+  "version": "2.51.0",
+  "versionCode": 2088,
+  "notes": "It reads the small print now.\n\nSome sites serve pages small enough that the lettering is only about ten pixels tall — too small for the text reader, which was quietly skipping whole lines in the middle of a balloon. You'd hear a narrator drop a beat and carry on, with nothing to tell you a line had gone missing.\n\nOn a Tales of Demons and Gods page, \"come in five different ranks. These\" and \"demons they capture into their soul seas.\" were both never read at all. They are now — about 15% more of that chapter's words.\n\nPages like that are enlarged before being read. Webtoons are unaffected; they were already handled.\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.51.0/MangaRain-v2.51.0-arm64.apk",
   "sizeMb": 71.6
 }
