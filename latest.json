@@ -1,7 +1,7 @@
 {
-  "version": "2.49.0",
-  "versionCode": 2086,
-  "notes": "It opens like an audiobook now.\n\nA chapter starts by announcing the series and the chapter — \"Pick Me Up, Infinite Gacha. Chapter 1.\" — taken from your library rather than read off the cover art, so it's the real name and the real number every time.\n\n• The scanlation credits are gone: the proofreader's name, the site watermark however it's signed, and the cover's own lettering.\n• It doesn't rush. There's a beat between balloons now, a longer one at a panel break, and longer still when someone else starts talking. The voice was never fast — there was simply no pause anywhere.\n\nChapters you've already read will re-read their pages once to pick this up.\n\nVoices are still the open problem: characters change mid-scene and gender isn't considered yet.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.49.0/MangaRain-v2.49.0-arm64.apk",
+  "version": "2.50.0",
+  "versionCode": 2087,
+  "notes": "One balloon at a time.\n\nWhen two speech balloons sat side by side in neighbouring panels, read-along was reading them a piece at a time — half of one person's sentence, then half of the other's, then the rest of the first. It's the worst thing a page can do and it's fixed.\n\nA page from Tales of Demons and Gods went from eight scrambled fragments to six whole balloons, each read start to finish before the next panel begins.\n\nVertical webtoons are unaffected — their balloons stack, so there was nothing to scramble. This is for pages laid out in panels across the width.\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.50.0/MangaRain-v2.50.0-arm64.apk",
   "sizeMb": 71.6
 }
