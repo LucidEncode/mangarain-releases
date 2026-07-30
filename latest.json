@@ -1,7 +1,7 @@
 {
-  "version": "2.51.0",
-  "versionCode": 2088,
-  "notes": "It reads the small print now.\n\nSome sites serve pages small enough that the lettering is only about ten pixels tall — too small for the text reader, which was quietly skipping whole lines in the middle of a balloon. You'd hear a narrator drop a beat and carry on, with nothing to tell you a line had gone missing.\n\nOn a Tales of Demons and Gods page, \"come in five different ranks. These\" and \"demons they capture into their soul seas.\" were both never read at all. They are now — about 15% more of that chapter's words.\n\nPages like that are enlarged before being read. Webtoons are unaffected; they were already handled.\n\nChapters you've already read will re-read their pages once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.51.0/MangaRain-v2.51.0-arm64.apk",
+  "version": "2.52.0",
+  "versionCode": 2089,
+  "notes": "The credit at the end of a chapter no longer gets read out loud. On Infinite Gacha the last thing you heard was the studio's sign-off; now the chapter just ends.\n\nStatus windows are skipped instead of read as a sentence. A stat block like \"strength: 14/14 intelligence: 10/10\" is a table, and spoken aloud it was the worst line in the chapter. System messages still read — \"[Skill] [Stealth] acquired!\" is the story happening, and you should hear it.\n\nCharacters no longer change voice partway through a chapter. If the neural voice had to fall back mid-session, the reader kept handing out character voices that fallback can't produce, so the same person could come back sounding like someone else.\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.52.0/MangaRain-v2.52-arm64.apk",
   "sizeMb": 71.6
 }
