@@ -1,7 +1,7 @@
 {
-  "version": "2.48.0",
-  "versionCode": 2084,
-  "notes": "It reads the panels, not the credits.\n\nFrom listening to a chapter end to end — this is the first round of fixes from that.\n\n• No more title card. Every chapter opened by reading the series name, then said it again over the first panel. Both gone.\n• No more studio credit read out as gibberish at the end of a chapter.\n• Lines stop being clipped. A short line could have its \"finished\" signal missed, and the stale signal then cut the next line off a word or two in. Every clip also ends with a beat of silence now, so nothing gets trimmed off the last syllable.\n• Swearing is spoken. If the page bleeps it, you hear the word rather than the engine spelling out a symbol.\n\nStill on the list from that listen: sound effects, and characters changing voice mid-scene.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.48.0/MangaRain-v2.48.0-arm64.apk",
+  "version": "2.48.1",
+  "versionCode": 2085,
+  "notes": "Gets v2.48's fixes to chapters you've already read.\n\nPages remember what they say, so three of the fixes only reached chapters you hadn't opened yet. Those pages are read again once, and then:\n\n• balloons are spoken as whole sentences rather than in fragments\n• the studio credit at the end of a chapter is gone\n• bleeped swearing is spoken as the word\n\nChapters you've already prepared will take a moment to re-read the first time you open them.\n\nAlso in 2.48: no more title card read at the start of every chapter, and lines stop being clipped before their last word.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.48.1/MangaRain-v2.48.1-arm64.apk",
   "sizeMb": 71.6
 }
