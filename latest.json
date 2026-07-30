@@ -1,7 +1,7 @@
 {
-  "version": "2.46.0",
-  "versionCode": 2082,
-  "notes": "Read-along keeps its voice.\n\nEvery line used to be spoken once and thrown away, so the app made the sound again the next time you read the page — and the first time, it made it while you waited. Narration audio is now kept.\n\n• Re-reading a page, or picking a chapter back up, starts almost instantly instead of pausing first. Measured on a test device: 3.3 seconds down to 0.16 seconds before the first word.\n• While you listen, the app quietly makes the audio for the pages ahead, so it is ready before you get there.\n• It only ever works ahead in the gaps where the voice is already busy — it will never make you wait to get ahead.\n\nKept audio lives in the app's cache, so your phone can reclaim it if space runs short, and it never touches your library or reading progress.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.46.0/MangaRain-v2.46.0-arm64.apk",
+  "version": "2.47.0",
+  "versionCode": 2083,
+  "notes": "Saved chapters are really saved now.\n\nDownloading a chapter used to fetch every page and tick it green — and then open it from the network anyway. With no signal you got nothing. The saved pages are now what the reader opens.\n\n• Every site, not just MangaDex. Asura, Weeb Central, MangaPill and MangaKatana chapters can all be saved.\n• Save next 1 / 5 / 10 / 20 from the Chapters header — the next ones you haven't read, not the oldest ones, one at a time so it doesn't hog your connection.\n• A saved chapter shows a tick you can tap to remove it, and one that failed shows a retry instead of pretending it worked.\n• A half-finished download never opens as a chapter with pages missing.\n\nPair it with v2.46's kept narration and a saved chapter reads and reads aloud with no connection at all.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.47.0/MangaRain-v2.47.0-arm64.apk",
   "sizeMb": 71.5
 }
