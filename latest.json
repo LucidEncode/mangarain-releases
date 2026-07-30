@@ -1,7 +1,7 @@
 {
-  "version": "2.45.0",
-  "versionCode": 2081,
-  "notes": "Balloons are read whole.\n\nA speech balloon's lettering comes to the app as separate lines, and read-along was stopping between them — so a sentence would break a word or two before the end and start again. \"Your sword isn't reaching… you.\" Now a balloon is spoken as the sentence it was lettered as.\n\n• Short words no longer break a sentence. Whether a word happened to have a tall letter in it was deciding where the voice paused.\n• Long balloons hold together to the end. The longer the sentence ran, the more likely its last words came adrift.\n\nBest noticed on Japanese page manga, where balloons carry the most lines.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.45.0/MangaRain-v2.45.0-arm64.apk",
+  "version": "2.46.0",
+  "versionCode": 2082,
+  "notes": "Read-along keeps its voice.\n\nEvery line used to be spoken once and thrown away, so the app made the sound again the next time you read the page — and the first time, it made it while you waited. Narration audio is now kept.\n\n• Re-reading a page, or picking a chapter back up, starts almost instantly instead of pausing first. Measured on a test device: 3.3 seconds down to 0.16 seconds before the first word.\n• While you listen, the app quietly makes the audio for the pages ahead, so it is ready before you get there.\n• It only ever works ahead in the gaps where the voice is already busy — it will never make you wait to get ahead.\n\nKept audio lives in the app's cache, so your phone can reclaim it if space runs short, and it never touches your library or reading progress.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.46.0/MangaRain-v2.46.0-arm64.apk",
   "sizeMb": 71.5
 }
