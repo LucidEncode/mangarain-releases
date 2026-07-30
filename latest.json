@@ -1,7 +1,7 @@
 {
-  "version": "2.52.0",
-  "versionCode": 2089,
-  "notes": "The credit at the end of a chapter no longer gets read out loud. On Infinite Gacha the last thing you heard was the studio's sign-off; now the chapter just ends.\n\nStatus windows are skipped instead of read as a sentence. A stat block like \"strength: 14/14 intelligence: 10/10\" is a table, and spoken aloud it was the worst line in the chapter. System messages still read — \"[Skill] [Stealth] acquired!\" is the story happening, and you should hear it.\n\nCharacters no longer change voice partway through a chapter. If the neural voice had to fall back mid-session, the reader kept handing out character voices that fallback can't produce, so the same person could come back sounding like someone else.\n\nChapters you've already read will re-read their pages once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.52.0/MangaRain-v2.52-arm64.apk",
+  "version": "2.53.0",
+  "versionCode": 2090,
+  "notes": "Pages are read in the right order.\n\nOn webtoons and manhwa the reader could speak a balloon, move down a panel, then walk back up the page to read another one. On Infinite Gacha chapter 1 that was happening to 15 lines out of 116, one of them several panels back up the page. All four test titles now read top to bottom with nothing out of order.\n\nStatus windows are read again. Stat blocks were being dropped as if they were recogniser noise — in a genre built on numbers, that quietly removed part of the chapter. They are spoken now, and so are lines like \"[Skill] [Stealth] acquired!\".\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.53.0/MangaRain-v2.53-arm64.apk",
   "sizeMb": 71.6
 }
