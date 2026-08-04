@@ -1,7 +1,7 @@
 {
-  "version": "2.55.0",
-  "versionCode": 2092,
-  "notes": "Lettering drawn as a noise — KRAAAA, DOKI DOKI, GOGOGOGO — now has a voice of its own: the deepest one, read slowly, so it lands as weight rather than as a word being pronounced. These used to be skipped in silence. Settings › Voice has a switch if you'd rather they stayed that way.\n\nAn honest note, because you'll notice. On Infinite Gacha and Solo Leveling this almost never fires yet. The effects ARE on the page and the recogniser does reach them — it just can't read stylised lettering, so \"chatter chatter\" comes back as \"hatter atfer\" and \"SNAPS AWAKE\" as \"Snas\". Reading those aloud would be gibberish, so the voice waits for the words. The gap is the recogniser, not the narrator, and that's the next thing.\n\nChapters you've already read will re-read their pages once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.55.0/MangaRain-v2.55-arm64.apk",
+  "version": "2.56.0",
+  "versionCode": 2093,
+  "notes": "Exclamation marks are exclamation marks again. Comic lettering is set in capitals, where ! and I are the same upright stroke — so \"GOLD!\" was being read aloud as \"Goldi\" and \"WOW!\" as \"Wowi\". The word came out wrong and the line lost the emphasis it was drawn with. Both are fixed, carefully: a name like Kaori or Naomi is never touched, because the repair only fires when removing the letter leaves a real word.\n\nThe Bilibili Comics watermark burned into the artwork is no longer read out. Tales of Demons and Gods was announcing it on most pages.\n\nAlso in this update, from v2.55: lettering drawn as a noise — KRAAAA, DOKI DOKI — now has a voice of its own, the deepest one, read slowly. These used to be skipped in silence. Settings › Voice has a switch for it. Fair warning: on Infinite Gacha and Solo Leveling it rarely fires yet, because the recogniser still can't read stylised lettering.\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.56.0/MangaRain-v2.56-arm64.apk",
   "sizeMb": 71.6
 }
