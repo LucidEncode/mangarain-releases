@@ -1,7 +1,7 @@
 {
-  "version": "2.54.0",
-  "versionCode": 2091,
-  "notes": "Hold read-along while you read a panel yourself.\n\nA page often carries something worth reading rather than hearing — a status window, a sign, a panel to sit with. Until now the only control was Stop, which forgot your place. Hold parks the voice where it stands and keeps the page, the line and the highlight; Resume picks up the same line from the start, so you never lose half a sentence.\n\nThe control sits on the strip that shows what is being said, next to the words, because you reach for it while the voice is mid-sentence.\n\nThe credit on a chapter's title card no longer gets read out when the studio prints it in the other order. Solo Leveling was opening every chapter by reading its own credits aloud.\n\nChapters you've already read will re-read their pages once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.54.0/MangaRain-v2.54-arm64.apk",
+  "version": "2.55.0",
+  "versionCode": 2092,
+  "notes": "Lettering drawn as a noise — KRAAAA, DOKI DOKI, GOGOGOGO — now has a voice of its own: the deepest one, read slowly, so it lands as weight rather than as a word being pronounced. These used to be skipped in silence. Settings › Voice has a switch if you'd rather they stayed that way.\n\nAn honest note, because you'll notice. On Infinite Gacha and Solo Leveling this almost never fires yet. The effects ARE on the page and the recogniser does reach them — it just can't read stylised lettering, so \"chatter chatter\" comes back as \"hatter atfer\" and \"SNAPS AWAKE\" as \"Snas\". Reading those aloud would be gibberish, so the voice waits for the words. The gap is the recogniser, not the narrator, and that's the next thing.\n\nChapters you've already read will re-read their pages once to pick this up.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.55.0/MangaRain-v2.55-arm64.apk",
   "sizeMb": 71.6
 }
