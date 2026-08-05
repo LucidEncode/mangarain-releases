@@ -1,7 +1,7 @@
 {
-  "version": "2.60.0",
-  "versionCode": 2098,
-  "notes": "Characters speaking from dark balloons finally sound like characters.\n\nSome titles draw a balloon black — a villain laughing, a sorcerer shouting. The app decides who is speaking by looking at how bright the area around the lettering is, and by that test a black balloon looks like open artwork, so those lines have always been read in the narrator's flat voice instead of a character's.\n\nThe app now also looks at the shape of the balloon itself, and only ever uses it to rescue a line the old test got wrong. Nothing that already sounded right can change. On the pages this was measured against, every character line that used to be flattened into narration is now spoken as dialogue.\n\nInfinite Gacha's \"Ahahaha!\" and \"Die, die!\" are the two that started this.\n\nIt costs about 11 MB of app size, and a couple of extra seconds on pages that actually have narration on them. It runs in the background, so the app stays responsive while it thinks.\n\nChapters you have already read will be re-read once to pick this up.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.60.0/MangaRain-v2.60-arm64.apk",
+  "version": "2.61.0",
+  "versionCode": 2099,
+  "notes": "The app picks up where you left off.\n\nWebtoons always reopened at the very top, however far into the chapter you had scrolled. A webtoon chapter is one enormously tall page, so knowing \"which page\" was never enough to know where you were — and nothing was writing down the scroll position at all.\n\nNow it remembers, and puts you back: the right image, and the right distance into it.\n\nTapping the chapter you were last reading resumes it. Tapping any other chapter still starts that one from the beginning, which is what picking a different chapter should mean.\n\nYour position is carried in backups too, so a restored phone opens to the same place.\n\nAlso in this release, from the previous update: characters speaking from dark balloons now sound like characters instead of the narrator.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.61.0/MangaRain-v2.61-arm64.apk",
   "sizeMb": 78.8
 }
