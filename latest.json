@@ -1,7 +1,7 @@
 {
-  "version": "2.59.0",
-  "versionCode": 2096,
-  "notes": "Downloads now pick up where they left off.\n\nKokoro is a 305 MB download, and until now a connection that dropped at 90% threw all of it away and started again. It now asks only for the part it is missing — so a lost signal, a walk out of Wi-Fi range, or closing the app costs you the last few seconds instead of the whole thing.\n\nAlso fixed: the chapter heading printed into the artwork is no longer read out. On some titles it sits on a pale panel, and the app mistook that for a speech bubble — so a character would announce \"Chapter 104: descendant of the future\" before the story started. It is treated as page furniture now, the same as page numbers and scanlation watermarks.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.59.0/MangaRain-v2.59-arm64.apk",
+  "version": "2.59.1",
+  "versionCode": 2097,
+  "notes": "Downloads now pick up where they left off.\n\nKokoro is a 305 MB download, and until now a connection that dropped at 90% threw all of it away and started again. It now asks only for the part it is missing — so a lost signal, a walk out of Wi-Fi range, or closing the app costs you the last few seconds instead of the whole thing.\n\nIf an install does go wrong partway, it now clears up after itself and starts clean next time rather than retrying the same broken download for ever.\n\nAlso fixed: the chapter heading printed into the artwork is no longer read out. On some titles it sits on a pale panel, and the app mistook that for a speech bubble — so a character would announce \"Chapter 104: descendant of the future\" before the story started. It is treated as page furniture now, the same as page numbers and scanlation watermarks.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.59.1/MangaRain-v2.59.1-arm64.apk",
   "sizeMb": 71.7
 }
