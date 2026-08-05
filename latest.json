@@ -1,7 +1,7 @@
 {
-  "version": "2.62.0",
-  "versionCode": 2100,
-  "notes": "Pages prepare almost twice as fast.\n\nThe balloon reader added in the last update was doing its work with four processor threads, on the assumption that more is quicker. Measured, it was not — two threads cut the time per page by about 45%.\n\nNothing about what it finds has changed. Dark balloons still get a character voice; it just gets there sooner.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.62.0/MangaRain-v2.62-arm64.apk",
+  "version": "2.63.0",
+  "versionCode": 2101,
+  "notes": "Read-along now has a sense of pacing.\n\nIt used to pause for almost the same length of time whatever had just happened — and, oddly, it paused LONGER between two speech bubbles on the same page than it did when turning to a new page or starting a new chapter. Nothing in the audio ever told you a page had ended.\n\nThe pauses now form a proper ladder: a short beat between bubbles in the same panel, a longer one across panels, longer again when narration hands over to dialogue, and real breathing room at a page turn, a new chapter, and after a chapter is announced by name.\n\nThey still scale with your reading speed, so asking to be read to faster shortens the pauses too.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.63.0/MangaRain-v2.63-arm64.apk",
   "sizeMb": 78.8
 }
