@@ -1,7 +1,7 @@
 {
-  "version": "2.61.0",
-  "versionCode": 2099,
-  "notes": "The app picks up where you left off.\n\nWebtoons always reopened at the very top, however far into the chapter you had scrolled. A webtoon chapter is one enormously tall page, so knowing \"which page\" was never enough to know where you were — and nothing was writing down the scroll position at all.\n\nNow it remembers, and puts you back: the right image, and the right distance into it.\n\nTapping the chapter you were last reading resumes it. Tapping any other chapter still starts that one from the beginning, which is what picking a different chapter should mean.\n\nYour position is carried in backups too, so a restored phone opens to the same place.\n\nAlso in this release, from the previous update: characters speaking from dark balloons now sound like characters instead of the narrator.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.61.0/MangaRain-v2.61-arm64.apk",
+  "version": "2.62.0",
+  "versionCode": 2100,
+  "notes": "Pages prepare almost twice as fast.\n\nThe balloon reader added in the last update was doing its work with four processor threads, on the assumption that more is quicker. Measured, it was not — two threads cut the time per page by about 45%.\n\nNothing about what it finds has changed. Dark balloons still get a character voice; it just gets there sooner.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.62.0/MangaRain-v2.62-arm64.apk",
   "sizeMb": 78.8
 }
