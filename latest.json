@@ -1,7 +1,7 @@
 {
-  "version": "2.58.0",
-  "versionCode": 2095,
-  "notes": "Kokoro now reads three times faster.\n\nIt turns out the smaller version of Kokoro was the reason it was slow. Swapping it for the full-size one takes it from about nine seconds a line to under three — fast enough to read along live instead of only playing back chapters you prepared first.\n\nThe trade is the download: 305 MB instead of 98. It is the largest voice here by some way, so it asks first and it is best done on Wi-Fi. If you already had Kokoro installed, the old copy is removed automatically and you will be asked before anything is fetched.\n\nKokoro can also cast characters now. Its eleven voices have been measured properly, and they turn out to be further apart than the ones BEST uses — so a page with several people talking has more room to give them different voices.\n\nAlso in this release: the voice screen now says \"unpacking\" while it unpacks, instead of sitting at 100% for several minutes looking stuck. A download that fails after every retry now says so. And a failed install no longer leaves a few hundred megabytes behind.\n\nBEST is still the default and still the fastest.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.58.0/MangaRain-v2.58-arm64.apk",
-  "sizeMb": 71.6
+  "version": "2.59.0",
+  "versionCode": 2096,
+  "notes": "Downloads now pick up where they left off.\n\nKokoro is a 305 MB download, and until now a connection that dropped at 90% threw all of it away and started again. It now asks only for the part it is missing — so a lost signal, a walk out of Wi-Fi range, or closing the app costs you the last few seconds instead of the whole thing.\n\nAlso fixed: the chapter heading printed into the artwork is no longer read out. On some titles it sits on a pale panel, and the app mistook that for a speech bubble — so a character would announce \"Chapter 104: descendant of the future\" before the story started. It is treated as page furniture now, the same as page numbers and scanlation watermarks.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.59.0/MangaRain-v2.59-arm64.apk",
+  "sizeMb": 71.7
 }
