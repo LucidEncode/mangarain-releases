@@ -1,7 +1,7 @@
 {
-  "version": "2.64.0",
-  "versionCode": 2102,
-  "notes": "Your books get a cast.\n\nNovels used to be read in one flat voice for hours — the story and the talking sounded like the same person. Now they don't. The split is read straight from the quotation marks the writer typed, so it's right whenever the writing is, and there's a breath where the voice changes.\n\nTurn it up to CAST in Settings and lines the writing actually attributes — “she said” — get a voice to match. Anything it can't be sure of keeps the ordinary speaking voice rather than guessing.\n\nBooks also open where you stopped. Continue used to restart the chapter from the top, which on a long chapter threw away most of a sitting.\n\nAnd on one source that serves its text with the apostrophes stripped out, the narrator was saying “ill” for “I'll” and “wont” for “won't”. Fixed.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.64.0/MangaRain-v2.64-arm64.apk",
-  "sizeMb": 78.8
+  "version": "2.65.0",
+  "versionCode": 2103,
+  "notes": "Conduct your comics.\n\nNothing can work out who is speaking a balloon just by looking at the artwork — every way of trying was measured and none of them beats about half. You can, and now it costs almost nothing: tap a name and that character speaks this line and every line after it, until you say otherwise. A page where one person does all the talking costs no taps at all.\n\nTap + WHO? the first time somebody speaks, give them a name and a voice, and they keep it for the whole series. What you conduct is saved, survives a re-read, and now travels in your backup.\n\nAlso in this one: a privacy policy you can read from Settings — pages are recognised on your phone and never uploaded — and proper credit for the open-source pieces the app is built from.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.65.0/MangaRain-v2.65-arm64.apk",
+  "sizeMb": 79.0
 }
