@@ -1,7 +1,7 @@
 {
-  "version": "2.66.0",
-  "versionCode": 2104,
-  "notes": "The cast keeps up.\n\nLines you have cast are now made ahead in the voice you gave them, so a conducted chapter plays without stopping to think. Before this, preparing a chapter would say “ready” and then pause on every line you had cast — which is exactly the ones you cared enough to conduct.\n\nAnd you can fix a cast you got wrong. Long-press a name to rename them or give them a different voice; it takes effect on the next line and nothing needs re-tapping.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.66.0/MangaRain-v2.66-arm64.apk",
+  "version": "2.67.0",
+  "versionCode": 2105,
+  "notes": "Say it like this.\n\nLong-press the words being read aloud and teach the voice how a name should sound. Break it into syllables with spaces — “Jin Woo” rather than “Jin-woo”, which is what actually works — and it will say it that way for the whole series. The page keeps its own spelling; only the sound changes.\n\nThat completes the set. Tap the words to fix what the page SAYS, long-press them to fix how it SOUNDS, and tap a name to say WHO is speaking.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.67.0/MangaRain-v2.67-arm64.apk",
   "sizeMb": 79.0
 }
