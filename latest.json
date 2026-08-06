@@ -1,7 +1,7 @@
 {
-  "version": "2.65.0",
-  "versionCode": 2103,
-  "notes": "Conduct your comics.\n\nNothing can work out who is speaking a balloon just by looking at the artwork — every way of trying was measured and none of them beats about half. You can, and now it costs almost nothing: tap a name and that character speaks this line and every line after it, until you say otherwise. A page where one person does all the talking costs no taps at all.\n\nTap + WHO? the first time somebody speaks, give them a name and a voice, and they keep it for the whole series. What you conduct is saved, survives a re-read, and now travels in your backup.\n\nAlso in this one: a privacy policy you can read from Settings — pages are recognised on your phone and never uploaded — and proper credit for the open-source pieces the app is built from.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.65.0/MangaRain-v2.65-arm64.apk",
+  "version": "2.66.0",
+  "versionCode": 2104,
+  "notes": "The cast keeps up.\n\nLines you have cast are now made ahead in the voice you gave them, so a conducted chapter plays without stopping to think. Before this, preparing a chapter would say “ready” and then pause on every line you had cast — which is exactly the ones you cared enough to conduct.\n\nAnd you can fix a cast you got wrong. Long-press a name to rename them or give them a different voice; it takes effect on the next line and nothing needs re-tapping.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.66.0/MangaRain-v2.66-arm64.apk",
   "sizeMb": 79.0
 }
