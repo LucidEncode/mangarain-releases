@@ -1,7 +1,7 @@
 {
-  "version": "2.67.0",
-  "versionCode": 2105,
-  "notes": "Say it like this.\n\nLong-press the words being read aloud and teach the voice how a name should sound. Break it into syllables with spaces — “Jin Woo” rather than “Jin-woo”, which is what actually works — and it will say it that way for the whole series. The page keeps its own spelling; only the sound changes.\n\nThat completes the set. Tap the words to fix what the page SAYS, long-press them to fix how it SOUNDS, and tap a name to say WHO is speaking.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.67.0/MangaRain-v2.67-arm64.apk",
+  "version": "2.68.0",
+  "versionCode": 2106,
+  "notes": "Cleaner words.\n\nFive things the voice was saying wrong are fixed. “cant”, “wasnt” and “werent” now read as can’t, wasn’t and weren’t — the recogniser drops apostrophes and the voice was saying them as different words. And the scanlation site’s watermark is no longer read aloud in the middle of a scene.\n\nMeasured on a device before and after across eight pages: five defects gone, nothing else changed.\n\nIf you have not tried it yet — tap a name on the strip while a comic reads to you, and that character speaks from there on.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.68.0/MangaRain-v2.68-arm64.apk",
   "sizeMb": 79.0
 }
