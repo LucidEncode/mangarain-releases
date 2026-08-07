@@ -1,7 +1,7 @@
 {
-  "version": "2.68.0",
-  "versionCode": 2106,
-  "notes": "Cleaner words.\n\nFive things the voice was saying wrong are fixed. “cant”, “wasnt” and “werent” now read as can’t, wasn’t and weren’t — the recogniser drops apostrophes and the voice was saying them as different words. And the scanlation site’s watermark is no longer read aloud in the middle of a scene.\n\nMeasured on a device before and after across eight pages: five defects gone, nothing else changed.\n\nIf you have not tried it yet — tap a name on the strip while a comic reads to you, and that character speaks from there on.",
-  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.68.0/MangaRain-v2.68-arm64.apk",
+  "version": "2.69.0",
+  "versionCode": 2107,
+  "notes": "Read-along got its timing back.\n\nA real pause when the story hands over to a character. The old one was too short to hear as a handover, and pause — not pitch — is what actually tells you somebody else is talking. This is the single biggest thing that makes two voices sound like two people.\n\nQuestions land properly now. A balloon that asks something gets a beat before the answer, so an exchange sounds like an exchange instead of one voice reading both halves.\n\nPage turns and chapter breaks always outlast any pause inside a page — at every reading speed, including the slowest.\n\nVoices in Settings tells you the truth. If casting can't work it now says why and what to do, instead of claiming to be on and quietly doing nothing.\n\nAlso fixed: a stutter where the next line was prepared in the wrong voice and had to be re-made mid-page.",
+  "apkUrl": "https://github.com/LucidEncode/mangarain-releases/releases/download/v2.69.0/MangaRain-v2.69-arm64.apk",
   "sizeMb": 79.0
 }
